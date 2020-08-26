@@ -29,7 +29,7 @@
 		<td><strong><a href="<?php echo $this->Path('/?module=item&action=view&id=') ?><?php echo $_item->nameid;?>">(<?php echo $_item->nameid;?>)</a></strong> </td>
 		<td><?php echo $_item->name_japanese;?> </td>
 		<td align="center"><?php echo $_item->qnt; ?></td>
-		<td><strong><a href="<?php echo $this->Path('/?module=item&action=view&id=') ?><?php echo $_item->account_id; ?>"><?php echo $_item->account_id; ?></a> <strong>(<?php echo $_item->name; ?>)</strong></strong></td>
+		<td><strong><a href="<?php echo $this->Path('/?module=account&action=view&id=') ?><?php echo $_item->account_id; ?>"><?php echo $_item->account_id; ?></a> <strong>(<?php echo $_item->name; ?>)</strong></strong></td>
 		<td><strong><?php echo $_item->map; ?></strong></td>
 		<td><?php echo $_item->date; ?></td>
 		
